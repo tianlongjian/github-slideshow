@@ -1,3 +1,5 @@
+git clone https://github.com/tianlongjian/github-slideshow.git
+
 git branch mybranch #创建分支mybranch
 
 git checkout mybranch #切换分支
@@ -7,3 +9,7 @@ git add -A #修改代码放入缓存区
 git commit -s -m "test 3" #提交代码到本地库
 
 git push origin mybranch #推送本地库代码到远程库
+
+git merge branch
+
+git push origin --delete branchname
