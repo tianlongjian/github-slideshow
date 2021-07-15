@@ -1,10 +1,10 @@
 #!/usr/bin/python
-import csv
-import xlrd
-import xlwt
+import time
+import datetime
+import weeklyreport
 import re
-import test1
 
-#def getExcelData(file_path):
-    
-    
+import network
+
+
+network.getNetworkURL()
